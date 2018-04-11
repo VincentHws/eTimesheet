@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.7.0.v201706222054</property>
+    <list-property name="propertyBindings">
+        <structure>
+            <property name="name">FILELIST</property>
+            <property name="id">4</property>
+        </structure>
+        <structure>
+            <property name="name">ENCODINGLIST</property>
+            <property name="id">4</property>
+        </structure>
+        <structure>
+            <property name="name">SCHEMAFILELIST</property>
+            <property name="id">4</property>
+        </structure>
+        <structure>
+            <property name="name">OdaConnProfileName</property>
+            <property name="id">4</property>
+        </structure>
+        <structure>
+            <property name="name">OdaConnProfileStorePath</property>
+            <property name="id">4</property>
+        </structure>
+    </list-property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">96</property>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.datatools.enablement.oda.xml" name="XML DataSource" id="4">
+            <property name="FILELIST">XML Data Source/DailyTask_March.xml</property>
+        </oda-data-source>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.datatools.enablement.oda.xml.dataSet" name="DailyTask" id="5">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Date</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">Date</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">Time</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">Time</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">Project Name</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">Project Name</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">Task Type</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">Task Type</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">Location</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">Location</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">pleasespecify</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">pleasespecify</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">Task Description</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">Task Description</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">Duration</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">Duration</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">Transport Claim</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">Transport Claim</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">Other Claim</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">Other Claim</text-property>
+                </structure>
+            </list-property>
+            <list-property name="parameters"/>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Date</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">Time</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">Project Name</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">Task Type</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">Location</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">pleasespecify</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">Task Description</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">Duration</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">Transport Claim</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">Other Claim</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">XML DataSource</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Date</property>
+                    <property name="nativeName">Date</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">Time</property>
+                    <property name="nativeName">Time</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">Project Name</property>
+                    <property name="nativeName">Project Name</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">Task Type</property>
+                    <property name="nativeName">Task Type</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">Location</property>
+                    <property name="nativeName">Location</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">pleasespecify</property>
+                    <property name="nativeName">pleasespecify</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">Task Description</property>
+                    <property name="nativeName">Task Description</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">Duration</property>
+                    <property name="nativeName">Duration</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">Transport Claim</property>
+                    <property name="nativeName">Transport Claim</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">Other Claim</property>
+                    <property name="nativeName">Other Claim</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[table0#-TNAME-#table0#:#[/DailyTasks/DailyTask]#:#{Date;STRING;/date},{Time;STRING;/time},{Project Name;STRING;/projectname},{Task Type;STRING;/tasktype},{Location;STRING;/location},{pleasespecify;STRING;/pleasespecify},{Task Description;STRING;/taskdescription},{Duration;STRING;/duration},{Transport Claim;STRING;/transportclaim},{Other Claim;STRING;/otherclaim}]]></xml-property>
+            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>date</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>date</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>time</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>time</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>projectname</design:name>
+              <design:position>3</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>projectname</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>tasktype</design:name>
+              <design:position>4</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>tasktype</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>location</design:name>
+              <design:position>5</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>location</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>pleasespecify</design:name>
+              <design:position>6</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>pleasespecify</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>taskdescription</design:name>
+              <design:position>7</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>taskdescription</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>duration</design:name>
+              <design:position>8</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>duration</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>transportclaim</design:name>
+              <design:position>9</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>transportclaim</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>otherclaim</design:name>
+              <design:position>10</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>otherclaim</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria/>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+            <list-property name="privateDriverProperties">
+                <ex-property>
+                    <name>MAX_ROW</name>
+                    <value>-1</value>
+                </ex-property>
+                <ex-property>
+                    <name>XML_FILE</name>
+                </ex-property>
+            </list-property>
+        </oda-data-set>
+        <oda-data-set extensionID="org.eclipse.datatools.enablement.oda.xml.dataSet" name="Timesheet" id="142">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Total Duration (Hours)</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">Total Duration (Hours)</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">Total Transport Claims</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">Total Transport Claims</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">Total Other Claims</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="heading">Total Other Claims</text-property>
+                </structure>
+            </list-property>
+            <list-property name="parameters"/>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Total Duration (Hours)</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">Total Transport Claims</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">Total Other Claims</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">XML DataSource</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Total Duration (Hours)</property>
+                    <property name="nativeName">Total Duration (Hours)</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">Total Transport Claims</property>
+                    <property name="nativeName">Total Transport Claims</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">Total Other Claims</property>
+                    <property name="nativeName">Total Other Claims</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[table0#-TNAME-#table0#:#[/DailyTasks/TotalSummary]#:#{Total Duration (Hours);STRING;/TotalDuration},{Total Transport Claims;STRING;/TotalTransportClaims},{Total Other Claims;STRING;/TotalOtherClaims}]]></xml-property>
+            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>summary1</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>summary1</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>summary2</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>summary2</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>summary3</design:name>
+              <design:position>3</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>summary3</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria/>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+            <list-property name="privateDriverProperties">
+                <ex-property>
+                    <name>MAX_ROW</name>
+                    <value>-1</value>
+                </ex-property>
+                <ex-property>
+                    <name>XML_FILE</name>
+                </ex-property>
+            </list-property>
+        </oda-data-set>
+        <oda-data-set extensionID="org.eclipse.datatools.enablement.oda.xml.dataSet" name="CurrentGroups" id="236">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Groups</property>
+                    <text-property name="heading">Groups</text-property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Groups</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">XML DataSource</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Groups</property>
+                    <property name="nativeName">Groups</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[table0#-TNAME-#table0#:#[/DailyTasks/Groups]#:#{Groups;STRING;}]]></xml-property>
+            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Groups</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>Groups</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria/>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+            <list-property name="privateDriverProperties">
+                <ex-property>
+                    <name>MAX_ROW</name>
+                    <value>-1</value>
+                </ex-property>
+                <ex-property>
+                    <name>XML_FILE</name>
+                </ex-property>
+            </list-property>
+        </oda-data-set>
+        <oda-data-set extensionID="org.eclipse.datatools.enablement.oda.xml.dataSet" name="UserDetails" id="240">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Username</property>
+                    <text-property name="heading">Username</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">UserID</property>
+                    <text-property name="heading">UserID</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">Email</property>
+                    <text-property name="heading">Email</text-property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Username</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">UserID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">Email</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">XML DataSource</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Username</property>
+                    <property name="nativeName">Username</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">UserID</property>
+                    <property name="nativeName">UserID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">Email</property>
+                    <property name="nativeName">Email</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[table0#-TNAME-#table0#:#[/DailyTasks/UserDetails]#:#{Username;STRING;/Username},{UserID;STRING;/UserID},{Email;STRING;/Email}]]></xml-property>
+            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Username</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>Username</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>UserID</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>UserID</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Email</design:name>
+              <design:position>3</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>Email</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria/>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+            <list-property name="privateDriverProperties">
+                <ex-property>
+                    <name>MAX_ROW</name>
+                    <value>-1</value>
+                </ex-property>
+                <ex-property>
+                    <name>XML_FILE</name>
+                </ex-property>
+            </list-property>
+        </oda-data-set>
+        <oda-data-set extensionID="org.eclipse.datatools.enablement.oda.xml.dataSet" name="Month" id="245">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Month</property>
+                    <text-property name="heading">Month</text-property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Month</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">XML DataSource</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Month</property>
+                    <property name="nativeName">Month</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[table0#-TNAME-#table0#:#[/DailyTasks/Month]#:#{Month;STRING;}]]></xml-property>
+            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>Month</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>-1</design:precision>
+            <design:scale>-1</design:scale>
+            <design:nullability>Unknown</design:nullability>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>Month</design:label>
+            <design:formattingHints/>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria/>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+            <list-property name="privateDriverProperties">
+                <ex-property>
+                    <name>MAX_ROW</name>
+                    <value>-1</value>
+                </ex-property>
+                <ex-property>
+                    <name>XML_FILE</name>
+                </ex-property>
+            </list-property>
+        </oda-data-set>
+    </data-sets>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <property name="type">a4</property>
+            <property name="orientation">landscape</property>
+            <property name="headerHeight">0.8in</property>
+            <page-header>
+                <grid id="134">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">thin</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">thin</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">thin</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">thin</property>
+                    <property name="textAlign">center</property>
+                    <property name="verticalAlign">middle</property>
+                    <property name="height">100%</property>
+                    <column id="135">
+                        <property name="width">20%</property>
+                    </column>
+                    <column id="136"/>
+                    <row id="137">
+                        <cell id="138">
+                            <property name="textAlign">center</property>
+                            <image id="140">
+                                <property name="height">0.3368421052631579in</property>
+                                <property name="width">2.0210526315789474in</property>
+                                <property name="source">file</property>
+                                <expression name="uri" type="constant">Image/Trisilco.png</expression>
+                            </image>
+                        </cell>
+                        <cell id="139">
+                            <property name="verticalAlign">middle</property>
+                            <text-data id="244">
+                                <property name="fontFamily">"Arial"</property>
+                                <property name="fontSize">18pt</property>
+                                <property name="fontWeight">bold</property>
+                                <property name="dataSet">Month</property>
+                                <list-property name="boundDataColumns">
+                                    <structure>
+                                        <property name="name">Month</property>
+                                        <text-property name="displayName">Month</text-property>
+                                        <expression name="expression" type="javascript">dataSetRow["Month"]</expression>
+                                        <property name="dataType">string</property>
+                                    </structure>
+                                </list-property>
+                                <expression name="valueExpr">BirtStr.left(row["Month"], BirtStr.charLength(row["Month"]) - 7) + " Timesheet"</expression>
+                                <property name="contentType">html</property>
+                            </text-data>
+                        </cell>
+                    </row>
+                </grid>
+            </page-header>
+            <page-footer>
+                <grid id="251">
+                    <property name="verticalAlign">middle</property>
+                    <property name="height">0.35in</property>
+                    <column id="252"/>
+                    <row id="253">
+                        <property name="verticalAlign">middle</property>
+                        <cell id="254">
+                            <text id="3">
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[Report generated on, <value-of>new Date()</value-of>]]></text-property>
+                            </text>
+                        </cell>
+                    </row>
+                </grid>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <grid id="191">
+            <column id="192">
+                <property name="fontFamily">"Arial"</property>
+                <property name="fontWeight">bold</property>
+                <property name="width">20%</property>
+            </column>
+            <column id="193">
+                <property name="fontFamily">"Arial"</property>
+                <property name="width">30%</property>
+            </column>
+            <column id="231">
+                <property name="fontFamily">"Arial"</property>
+                <property name="width">20%</property>
+            </column>
+            <column id="226">
+                <property name="fontFamily">"Arial"</property>
+                <property name="width">30%</property>
+            </column>
+            <row id="194">
+                <cell id="195">
+                    <label id="203">
+                        <property name="fontWeight">bold</property>
+                        <text-property name="text">Username:</text-property>
+                    </label>
+                </cell>
+                <cell id="196">
+                    <data id="242">
+                        <property name="fontSize">12pt</property>
+                        <property name="dataSet">UserDetails</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">Username</property>
+                                <text-property name="displayName">Username</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["Username"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                        </list-property>
+                        <property name="resultSetColumn">Username</property>
+                    </data>
+                </cell>
+                <cell id="227">
+                    <label id="204">
+                        <property name="fontWeight">bold</property>
+                        <text-property name="text">User ID:</text-property>
+                    </label>
+                </cell>
+                <cell id="222">
+                    <data id="243">
+                        <property name="fontSize">12pt</property>
+                        <property name="dataSet">UserDetails</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">UserID</property>
+                                <text-property name="displayName">UserID</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["UserID"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                        </list-property>
+                        <property name="resultSetColumn">UserID</property>
+                    </data>
+                </cell>
+            </row>
+            <row id="197">
+                <cell id="198">
+                    <property name="colSpan">1</property>
+                    <property name="rowSpan">3</property>
+                    <label id="220">
+                        <text-property name="text">Groups:</text-property>
+                    </label>
+                </cell>
+                <cell id="199">
+                    <property name="colSpan">1</property>
+                    <property name="rowSpan">3</property>
+                    <data id="239">
+                        <property name="fontSize">12pt</property>
+                        <property name="dataSet">CurrentGroups</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">Groups</property>
+                                <text-property name="displayName">Groups</text-property>
+                                <expression name="expression" type="javascript">BirtStr.left(dataSetRow["Groups"], BirtStr.charLength(dataSetRow["Groups"]) - 1)</expression>
+                                <property name="dataType">string</property>
+                                <property name="allowExport">true</property>
+                            </structure>
+                        </list-property>
+                        <property name="resultSetColumn">Groups</property>
+                    </data>
+                </cell>
+                <cell id="228">
+                    <label id="205">
+                        <property name="fontWeight">bold</property>
+                        <text-property name="text">Email:</text-property>
+                    </label>
+                </cell>
+                <cell id="223">
+                    <data id="241">
+                        <property name="fontSize">12pt</property>
+                        <property name="dataSet">UserDetails</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">Email</property>
+                                <text-property name="displayName">Email</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["Email"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                        </list-property>
+                        <property name="resultSetColumn">Email</property>
+                    </data>
+                </cell>
+            </row>
+            <row id="200">
+                <cell id="229"/>
+                <cell id="224"/>
+            </row>
+            <row id="217">
+                <cell id="230"/>
+                <cell id="225"/>
+            </row>
+        </grid>
+        <label id="207"/>
+        <label id="208"/>
+        <table id="70">
+            <property name="fontFamily">"Arial"</property>
+            <property name="width">100%</property>
+            <property name="dataSet">DailyTask</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">Date</property>
+                    <text-property name="displayName">Date</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Date"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Time</property>
+                    <text-property name="displayName">Time</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Time"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Project Name</property>
+                    <text-property name="displayName">Project Name</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Project Name"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Task Type</property>
+                    <text-property name="displayName">Task Type</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Task Type"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Location</property>
+                    <text-property name="displayName">Location</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Location"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">pleasespecify</property>
+                    <text-property name="displayName">pleasespecify</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["pleasespecify"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Task Description</property>
+                    <text-property name="displayName">Task Description</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Task Description"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Duration</property>
+                    <text-property name="displayName">Duration</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Duration"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Transport Claim</property>
+                    <text-property name="displayName">Transport Claim</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Transport Claim"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Other Claim</property>
+                    <text-property name="displayName">Other Claim</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["Other Claim"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="124">
+                <property name="width">10%</property>
+            </column>
+            <column id="125">
+                <property name="width">12%</property>
+            </column>
+            <column id="126"/>
+            <column id="127">
+                <property name="width">7%</property>
+            </column>
+            <column id="128">
+                <property name="width">10%</property>
+            </column>
+            <column id="130">
+                <property name="width">20%</property>
+            </column>
+            <column id="131">
+                <property name="width">7%</property>
+            </column>
+            <column id="132">
+                <property name="width">12%</property>
+            </column>
+            <column id="133">
+                <property name="width">10%</property>
+            </column>
+            <header>
+                <row id="71">
+                    <property name="backgroundColor">#FB0000</property>
+                    <property name="fontWeight">bold</property>
+                    <property name="color">#FFFFFF</property>
+                    <property name="verticalAlign">middle</property>
+                    <cell id="72">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <label id="73">
+                            <text-property name="text">Date</text-property>
+                        </label>
+                    </cell>
+                    <cell id="74">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <label id="75">
+                            <text-property name="text">Time</text-property>
+                        </label>
+                    </cell>
+                    <cell id="76">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <label id="77">
+                            <text-property name="text">Project Name</text-property>
+                        </label>
+                    </cell>
+                    <cell id="78">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <label id="79">
+                            <text-property name="text">Task Type</text-property>
+                        </label>
+                    </cell>
+                    <cell id="80">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <label id="81">
+                            <text-property name="text">Location</text-property>
+                        </label>
+                    </cell>
+                    <cell id="84">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <label id="85">
+                            <text-property name="text">Task Description</text-property>
+                        </label>
+                    </cell>
+                    <cell id="86">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <label id="87">
+                            <text-property name="text">Duration (Hours)</text-property>
+                        </label>
+                    </cell>
+                    <cell id="88">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <label id="89">
+                            <text-property name="text">Transport Claim (RM)</text-property>
+                        </label>
+                    </cell>
+                    <cell id="90">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <label id="91">
+                            <text-property name="text">Other Claim (RM)</text-property>
+                        </label>
+                    </cell>
+                </row>
+            </header>
+            <detail>
+                <row id="92">
+                    <property name="fontFamily">"Arial"</property>
+                    <property name="textAlign">center</property>
+                    <property name="verticalAlign">middle</property>
+                    <cell id="93">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="94">
+                            <property name="resultSetColumn">Date</property>
+                        </data>
+                    </cell>
+                    <cell id="95">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="96">
+                            <property name="resultSetColumn">Time</property>
+                        </data>
+                    </cell>
+                    <cell id="97">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="98">
+                            <property name="resultSetColumn">Project Name</property>
+                        </data>
+                    </cell>
+                    <cell id="99">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="100">
+                            <property name="resultSetColumn">Task Type</property>
+                        </data>
+                    </cell>
+                    <cell id="101">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="102">
+                            <property name="resultSetColumn">Location</property>
+                        </data>
+                        <data id="104">
+                            <property name="resultSetColumn">pleasespecify</property>
+                        </data>
+                    </cell>
+                    <cell id="105">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <data id="106">
+                            <property name="resultSetColumn">Task Description</property>
+                        </data>
+                    </cell>
+                    <cell id="107">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="108">
+                            <property name="resultSetColumn">Duration</property>
+                        </data>
+                    </cell>
+                    <cell id="109">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="110">
+                            <property name="resultSetColumn">Transport Claim</property>
+                        </data>
+                    </cell>
+                    <cell id="111">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="112">
+                            <property name="resultSetColumn">Other Claim</property>
+                        </data>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+        <label id="177"/>
+        <label id="178"/>
+        <grid id="165">
+            <column id="166">
+                <property name="fontFamily">"Arial"</property>
+                <property name="fontWeight">bold</property>
+                <property name="width">15%</property>
+            </column>
+            <column id="167">
+                <property name="fontFamily">"Arial"</property>
+                <property name="width">85%</property>
+            </column>
+            <row id="173">
+                <cell id="174">
+                    <label id="188">
+                        <text-property name="text">Total Duration (Hours)</text-property>
+                    </label>
+                </cell>
+                <cell id="175">
+                    <data id="233">
+                        <property name="dataSet">Timesheet</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">Total Duration (Hours)</property>
+                                <text-property name="displayName">Total Duration (Hours)</text-property>
+                                <expression name="expression" type="javascript">": " + dataSetRow["Total Duration (Hours)"]</expression>
+                                <property name="dataType">string</property>
+                                <property name="allowExport">true</property>
+                            </structure>
+                        </list-property>
+                        <property name="resultSetColumn">Total Duration (Hours)</property>
+                    </data>
+                </cell>
+            </row>
+            <row id="180">
+                <cell id="181">
+                    <label id="189">
+                        <text-property name="text">Total Transport Claims</text-property>
+                    </label>
+                </cell>
+                <cell id="182">
+                    <data id="234">
+                        <property name="dataSet">Timesheet</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">Total Other Claims</property>
+                                <text-property name="displayName">Total Other Claims</text-property>
+                                <expression name="expression" type="javascript">": RM " + dataSetRow["Total Other Claims"]</expression>
+                                <property name="dataType">string</property>
+                                <property name="allowExport">true</property>
+                            </structure>
+                        </list-property>
+                        <property name="resultSetColumn">Total Other Claims</property>
+                    </data>
+                </cell>
+            </row>
+            <row id="183">
+                <cell id="184">
+                    <label id="190">
+                        <text-property name="text">Total Other Claims</text-property>
+                    </label>
+                </cell>
+                <cell id="185">
+                    <data id="235">
+                        <property name="dataSet">Timesheet</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">Total Transport Claims</property>
+                                <text-property name="displayName">Total Transport Claims</text-property>
+                                <expression name="expression" type="javascript">": RM " + dataSetRow["Total Transport Claims"]</expression>
+                                <property name="dataType">string</property>
+                                <property name="allowExport">true</property>
+                            </structure>
+                        </list-property>
+                        <property name="resultSetColumn">Total Transport Claims</property>
+                    </data>
+                </cell>
+            </row>
+        </grid>
+    </body>
+</report>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DailyTasks>
+   <Month>March_button</Month>
+   <UserDetails>
+      <Username>VincentHWS</Username>
+      <UserID>3</UserID>
+      <Email>vincent.how@trisilco-it.com</Email>
+   </UserDetails>
+   <Groups>Actico Team,B2B,</Groups>
+   <DailyTask>
+      <date>13 March, 18</date>
+      <time>02:00:00 - 02:30:00</time>
+      <projectname>CIMB ICRES Revamp</projectname>
+      <tasktype>Meeting</tasktype>
+      <location>Onsite</location>
+      <pleasespecify>Menara CIMB</pleasespecify>
+      <taskdescription>To discuss possible change request on scorecard with CIMB MY.</taskdescription>
+      <duration>0.5</duration>
+      <transportclaim>20.00</transportclaim>
+      <otherclaim>5.00</otherclaim>
+   </DailyTask>
+   <DailyTask>
+      <date>14 March, 18</date>
+      <time>10:00:00 - 14:30:00</time>
+      <projectname>CIMB ICRES Revamp</projectname>
+      <tasktype>Project</tasktype>
+      <location>Offsite</location>
+      <pleasespecify>Office</pleasespecify>
+      <taskdescription>Continue implementation of financial statement for ORR MY.</taskdescription>
+      <duration>4.5</duration>
+      <transportclaim>0.00</transportclaim>
+      <otherclaim>0.00</otherclaim>
+   </DailyTask>
+   <DailyTask>
+      <date>15 March, 18</date>
+      <time>01:00:00 - 07:30:00</time>
+      <projectname>CIMB ICRES Revamp</projectname>
+      <tasktype>Support</tasktype>
+      <location>Onsite</location>
+      <pleasespecify>Menara CIMB</pleasespecify>
+      <taskdescription>Debugging CIMBX-1367</taskdescription>
+      <duration>6.5</duration>
+      <transportclaim>18.00</transportclaim>
+      <otherclaim>16.50</otherclaim>
+   </DailyTask>
+   <DailyTask>
+      <date>16 March, 18</date>
+      <time>13:30:00 - 15:30:00</time>
+      <projectname>CIMB ICRES Revamp</projectname>
+      <tasktype>Pre-Sales</tasktype>
+      <location>Onsite</location>
+      <pleasespecify>Menara CIMB</pleasespecify>
+      <taskdescription>Continue implementation of BIRT report for BRR.</taskdescription>
+      <duration>2.0</duration>
+      <transportclaim>25.00</transportclaim>
+      <otherclaim>10.00</otherclaim>
+   </DailyTask>
+   <TotalSummary>
+      <TotalDuration>13.5</TotalDuration>
+      <TotalTransportClaims>63.0</TotalTransportClaims>
+      <TotalOtherClaims>31.5</TotalOtherClaims>
+   </TotalSummary>
+</DailyTasks>
