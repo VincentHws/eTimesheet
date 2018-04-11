@@ -1,0 +1,132 @@
+body {
+	background-image: URL("background-IMAGE.jpg");
+	background-attachment: fixed;
+}
+
+textarea {
+	resize: none;
+}
+  
+.Status_Message {
+	font-size: 14px;
+	font-family: Arial;
+}
+
+#LoggedInAs {
+	font-size: 13px;
+	font-family: Arial;
+}
+
+span.clickableLabel {
+	font-size: 18px;
+	color: #FF2800;
+}
+
+table.TotalSummary td{
+  	font-family: Arial, Helvetica, sans-serif;
+  	text-align: left;
+  	font-size: 13px;
+}
+
+table#headerTable td{
+	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 13px;
+}
+
+.buttonAlignRightParent {
+	text-align: right;
+}
+
+input.AlignCenter{
+	text-align: center;	
+}
+
+footer {
+	font-size: 13px;
+	font-family: Arial;
+}
+
+/* Table Styling - Daily Task*/
+table.daily_task {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0px solid #1C6EA4;
+  background-color: #D1D1D1;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.daily_task td, table.daily_task th {
+  border: 0px solid #AAAAAA;
+  /*padding: 3px 3px;*/
+}
+table.daily_task tbody td {
+  font-size: 13px;
+}
+table.daily_task tr:nth-child(even) {
+  background: #F5F5F5;
+}
+table.daily_task thead {
+  background: #FF2800;
+  border-bottom: 2px solid #444444;
+}
+table.daily_task thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 1px solid #D0E4F5;
+}
+table.daily_task thead th:first-child {
+  border-left: none;
+}
+
+table.daily_task tfoot td {
+  font-size: 11px;
+}
+table.daily_task tfoot .links {
+  text-align: right;
+}
+table.daily_task tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+/* Table Styling - AdminTable */
+table.AdminTable {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  text-align: left;
+}
+table.AdminTable td, table.AdminTable th {
+  padding: 2px 2px;
+}
+table.AdminTable tbody td {
+  font-size: 13px;
+}
+table.AdminTable tr:nth-child(even) {
+  background: #F5F5F5;
+}
+table.AdminTable thead {
+  background: #FF2800;
+}
+table.AdminTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+table.AdminTable tfoot td {
+  font-size: 14px;
+}
+table.AdminTable tfoot .links {
+  text-align: right;
+}
+table.AdminTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}

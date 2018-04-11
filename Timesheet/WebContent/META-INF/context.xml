@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+	<!-- <ResourceLink name="jdbc/lazypeondb" global="jdbc/lazypeondb"  type="javax.sql.DataSource"/>-->
+
+	<Resource name="jdbc/lazypeondb" auth="Container" type="javax.sql.DataSource" username="root" password="root" driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://127.0.0.1:9009/LazyPeonDB?autoReconnect=true&amp;useSSL=false" maxActive="15" maxIdle="3" />
+ 	
+</Context>

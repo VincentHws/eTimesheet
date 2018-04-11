@@ -1,0 +1,4 @@
+body {
+	background-image: URL("background-IMAGE.jpg");
+	background-attachment: fixed;
+}
